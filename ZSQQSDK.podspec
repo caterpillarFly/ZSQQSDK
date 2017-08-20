@@ -9,7 +9,8 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/caterpillarFly/ZSQQSDK.git"
-  s.license      = "MIT"
+  #s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "caterpillarFly" => "zhaoshengxhu@163.com" }
   s.platform     = :ios, "7.0"
   
