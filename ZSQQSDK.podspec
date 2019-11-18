@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZSQQSDK"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "CocoaPods for qqsdk."
 
   s.description  = <<-DESC
