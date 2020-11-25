@@ -7,7 +7,11 @@
 ///
 
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 #import "sdkdef.h"
+
+#ifndef TencentOpenApiUmbrellaHeader22_h
+#define TencentOpenApiUmbrellaHeader22_h
 
 @protocol TencentSessionDelegate;
 @protocol TencentLoginDelegate;
@@ -479,3 +483,6 @@ typedef NS_ENUM(NSUInteger, TencentAuthMode) {
 - (NSUInteger) tencentWebViewSupportedInterfaceOrientationsWithWebkit;
 - (BOOL) tencentWebViewShouldAutorotateWithWebkit;
 @end
+
+
+#endif
