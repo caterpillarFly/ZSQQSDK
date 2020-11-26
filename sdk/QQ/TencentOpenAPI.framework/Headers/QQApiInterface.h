@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "QQApiInterfaceObject.h"
 
+#ifndef TencentOpenApiUmbrellaHeader23_h
+#define TencentOpenApiUmbrellaHeader23_h
+
 typedef void (^sendResultBlock)(NSDictionary *result);
 
 /**
@@ -172,3 +175,5 @@ typedef void (^sendResultBlock)(NSDictionary *result);
 ///日志文件目录
 + (NSString*)getLogFilePath;
 @end
+
+#endif
