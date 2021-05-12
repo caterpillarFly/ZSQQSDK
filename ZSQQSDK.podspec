@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZSQQSDK"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "CocoaPods for qqsdk."
 
   s.description  = <<-DESC
@@ -19,7 +19,9 @@ Pod::Spec.new do |s|
   s.framework = "CoreTelephony", "CoreGraphics", "SystemConfiguration", "Security"
   s.libraries = "iconv", "sqlite3", "stdc++", "z"
 
-  s.vendored_frameworks = 'sdk/**/*.{framework}'
+  s.vendored_frameworks = 'Vendor/*.{framework}'
+  ss.resources = ['Resource/*.bundle']
+
   s.requires_arc = true
 
 end
